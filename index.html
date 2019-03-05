@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="header__logo-wrapper">
+            <a href="#"><img src="./img/tromb.png" alt="" id="header-img" class="header__logo"></a>
+        </div>
+        <ul id="nav-bar" class="header__nav-bar">
+            <li class="header__nav-item">
+                <a href="#features" class="header__nav-link"> Features</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#how-works" class="header__nav-link">How It Works</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#pricing" class="header__nav-link">Pricing</a>
+            </li>
+        </ul>
+    </header>
+    <div class="page-wrapper">
+        <section id="contact-email" class="feedback">
+            <form class="feedback__form-email">
+                <h2 class="feedback__heading">Handcrafted, home-made masterpieces</h2>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" class="feedback__input" placeholder="Enter your email address">
+                <label for="submit">
+                    <input type="submit" id="submit" name="submit" value="get started" class="feedback__submit-btn btn">
+            </form>
+        </section>
+        <section id="features" class="provided-features">
+            <ul class="provided-features__list">
+                <div class="provided-features__box">
+                    <i class="fas fa-fire provided-features__icon"></i>
+                    <li class="provided-features__items">
+                        <h2 class="provided-features__heading">Premium Materials</h2>
+                        <p class="provided-features__desc">Our trombones use the shiniest brass which is sourced
+                            locally.
+                            This will increase the longevity of your purchase.</p>
+                    </li>
+                </div>
+                <div class="provided-features__box">
+                    <i class="fas fa-truck provided-features__icon"></i>
+                    <li class="provided-features__items">
+                        <h2 class="provided-features__heading">Fast Shipping</h2>
+                        <p class="provided-features__desc">We make sure you recieve your trombone as soon as we have
+                            finished making it. We also provide free returns if you are not satisfied.</p>
+                    </li>
+                </div>
+                <div class="provided-features__box">
+                    <i class="fas fa-battery-full provided-features__icon"></i>
+                    <li class="provided-features__items">
+                        <h2 class="provided-features__heading">Quality Assurance</h2>
+                        <p class="provided-features__desc">For every purchase you make, we will ensure there are no
+                            damages
+                            or faults and we will check and test the pitch of your instrument.</p>
+                    </li>
+                </div>
+            </ul>
+        </section>
+        <section id="how-works" class="device-showoff">
+            <iframe class="device-showoff__video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <section id="pricing" class="pricing">
+            <div class="price-container">
+                <div class="price-box">
+                    <h3 class="price-box__title">tenor trombone</h3>
+                    <p class="price-box__price-label">$600</p>
+                    <p class="price-box__description">
+                        Lorem ipsum.Lorem ipsum.Lorem ipsum dolor.Lorem ipsum.
+                    </p>
+                    <button class="price-box__select-btn btn">Select</button>
+                </div>
+                <div class="price-box">
+                    <h3 class="price-box__title">bass trombone</h3>
+                    <p class="price-box__price-label">$800</p>
+                    <p class="price-box__description">
+                        Lorem ipsum.Lorem ipsum.Lorem ipsum dolor.Lorem ipsum.
+                    </p>
+                    <button class="price-box__select-btn btn">Select</button>
+                </div>
+                <div class="price-box">
+                    <h3 class="price-box__title">valve trombone</h3>
+                    <p class="price-box__price-label">$1200</p>
+                    <p class="price-box__description">
+                        Plays similar to a Trumpet
+                        Great for Jazz Bands
+                        Lorem ipsum dolor.
+                        Lorem ipsum.
+                    </p>
+                    <button class="price-box__select-btn btn">Select</button>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" class="footer">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Privacy</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Terms</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Contact</a>
+                </li>
+            </ul>
+            <p class="footer__copyright">Copyright 2016, Original Trombones</p>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
