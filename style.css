@@ -200,6 +200,11 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     text-align: center;
     padding-bottom: 1rem;
+    transition: .4s;
+}
+
+.price-box:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .price-box__title {
